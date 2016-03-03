@@ -1,0 +1,57 @@
+header {
+	padding: 2%;
+}
+
+
+nav ul {
+	list-style-type: none;
+	white-space: nowrap;
+	padding: 0;
+}
+
+nav li {
+	position: relative;
+	padding: 0px;
+	margin-left: 10px;
+} 
+
+nav a {
+	text-decoration: none;
+	color: black;
+	float: right;
+	padding: 0;
+}
+
+
+#beautiful {
+	background-color: gray;
+	height: auto;
+	color: white;
+	text-align: left;
+	padding: 5%;
+}
+
+h1 {
+	font-weight: bold;
+	padding: 2%;
+}
+
+#trans {
+	background-color: rgba(250, 250, 250, 0.4);
+	padding: 5%;
+	width: 100%
+}
+
+input {
+	width: 100%;
+	margin: 5%;
+	text-align: left;
+}
+
+@media (min-width: 1006px) and (max-width: 1600px)  {
+	#trans {
+		width: 60%;
+	}
+
+}
+
